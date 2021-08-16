@@ -1,0 +1,46 @@
+ul
+{
+   
+   padding:0;
+   display:flex;
+   width:150px;
+   gap:50px;
+   margin-left: 60px;
+}
+nav
+{
+    background-color: #fff;
+    height:100px;
+    /* hright of nav bar */
+}
+body
+{
+    background-color: #eee;
+}
+ul li
+{
+    list-style: none;
+    width:150px;
+    flex:1;
+    line-height: 100px;
+    /* it will center text */
+   
+    padding:0px 200 px;
+    
+    /* display: inline-block; */
+    /* it means elements are displayed in same line */
+}
+ul li a
+{
+    /* we don't want line underneath link */
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e1e1e;
+    text-decoration: none;
+    
+}
+ul li a:hover
+{
+    color:red;
+    /* color of text will change on hover */
+}
